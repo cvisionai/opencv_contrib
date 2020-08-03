@@ -27,7 +27,7 @@ struct DummyModel : TrackerModel
 
 const double eps=0.00001;      // for normalization
 const double rate=0.2;         // learning rate
-const double psrThreshold=5.7; // no detection, if PSR is smaller than this
+const double psrThreshold=2.7; // no detection, if PSR is smaller than this
 
 
 struct MosseImpl CV_FINAL : TrackerMOSSE
